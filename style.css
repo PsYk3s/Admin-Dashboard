@@ -1,3 +1,58 @@
 body {
     background-color: #E2E9F1;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: inline-grid;
+    grid-template-columns: 300px 1fr;
+    width: 100%;
+    margin: 0px;
+}
+
+#navigation-menu {
+    background: #2592D0;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+#page-body-head {
+    background: #ffffff;
+    padding: 10px;
+    display: inline-grid;
+    grid-template: 50px 50px / 1fr 1fr;
+    width: 100%;
+    box-shadow: 0px 0px 7px #999898;
+}
+
+#user-details-sml {
+    display: inline-grid;
+    grid-template: auto / 1fr 1fr 7fr;
+}
+
+#user-details-lrg {
+    display: inline-grid;
+    grid-template-columns: 1fr 8fr;
+}
+
+#context-menu-btns {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 6fr;
+}
+
+#cards-heading {
+    grid-column: 1 / 3;
+}
+
+#project-cards-section {
+    padding: 20px;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#announcements-trending-section {
+    padding: 20px;
+}
+
+#inner-page-section {
+    display: inline-grid;
+    grid-template-columns: 6fr 3fr;
 }
