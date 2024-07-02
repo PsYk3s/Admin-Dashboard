@@ -18,7 +18,7 @@ body {
     background: #ffffff;
     padding: 10px;
     display: inline-grid;
-    grid-template: 50px 50px / 1fr 1fr;
+    grid-template: 50px 50px / 1fr 600px;
     width: 100%;
     box-shadow: 0px 0px 7px #999898;
 }
@@ -44,8 +44,6 @@ body {
 
 #project-cards-section {
     padding: 20px;
-    display: inline-grid;
-    grid-template-columns: 1fr 1fr;
 }
 
 #announcements-trending-section {
@@ -54,5 +52,51 @@ body {
 
 #inner-page-section {
     display: inline-grid;
-    grid-template-columns: 6fr 3fr;
+    grid-template-columns: 6fr 400px;
+}
+
+#announcements-container {
+    display: inline-grid;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+#project-card-content {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 0.5em;
+}
+
+#cards {
+    display: inline-grid;
+    grid-template: 1fr / 1fr 1fr;
+    gap: 20px;
+}
+
+#trending {
+    display: inline-grid;
+    grid-template: 1fr / 50px 1fr;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+#trending:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+#announcement {
+    border-bottom: 1px solid #e9e9e9;   
+}
+
+#announcement:last-child {
+    border-bottom: none;   
+}
+
+
+#trends-container, #announcements-container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 0.5em;
 }
